@@ -23,7 +23,7 @@
 
 body {
   background-color: var(--color-primary);
-  font-family: "Poppins", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
@@ -166,40 +166,17 @@ section {
 }
 
 /*About*/
-.about-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding-top: 3.5rem;
-  padding-bottom: 5rem;
-}
-.about-container .right-about {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
-}
-.about-container .right-about .about-item {
-  border: 1px solid var(--color-grey-5);
-  border-radius: 5px;
-  transition: all 0.4s ease-in-out;
-  box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
-}
-.about-container .right-about .about-item:hover {
-  cursor: default;
-  transform: translateY(-5px);
-  border: 1px solid var(--color-secondary);
-  box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
-}
-.about-container .right-about .about-item .abt-text {
+.about-container .abt-text {
   padding: 1.5rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
-.about-container .right-about .about-item .abt-text .large-text {
+.about-container .abt-text .large-text {
   font-size: 3rem;
   font-weight: 700;
   color: var(--color-secondary);
 }
-.about-container .right-about .about-item .abt-text .small-text {
+.about-container .abt-text .small-text {
   padding-left: 3rem;
   position: relative;
   text-transform: uppercase;
@@ -207,7 +184,7 @@ section {
   color: var(--color-grey-1);
   letter-spacing: 2px;
 }
-.about-container .right-about .about-item .abt-text .small-text::before {
+.about-container .abt-text .small-text::before {
   content: "";
   position: absolute;
   left: 0;
@@ -216,15 +193,16 @@ section {
   height: 2px;
   background-color: var(--color-grey-5);
 }
-.about-container .left-about {
+
+.left-about {
   padding-right: 5rem;
 }
-.about-container .left-about p {
+.left-about p {
   line-height: 2rem;
   padding: 1rem;
   color: var(--color-grey-1);
 }
-.about-container .left-about h4 {
+.left-about h4 {
   font-size: 2rem;
   text-transform: uppercase;
 }
