@@ -631,6 +631,34 @@ section {
   background-color: darkorange;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+}
+
+.footer-bottom {
+  background: var(--color-grey-5);
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 18px;
+  word-spacing: 2px;
+}
+
+.footer-bottom span {
+  font-weight: bold;
+}
+
 .main-title {
   text-align: center;
 }
