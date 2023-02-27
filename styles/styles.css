@@ -560,8 +560,8 @@ section {
 
 .card-image {
   position: relative;
-  height: 200px;
-  width: 200px;
+  height: 125px;
+  width: 125px;
   -o-object-fit: cover;
      object-fit: cover;
   background: orange;
@@ -651,7 +651,7 @@ footer {
 }
 
 .footer-bottom p {
-  font-size: 18px;
+  font-size: 16px;
   word-spacing: 2px;
 }
 
