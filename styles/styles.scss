@@ -132,15 +132,15 @@ section {
             clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
         }
         .image {
-            height: 85%;
-            width: 70%;
+            height: 92%;
+            width: 72%;
             margin-left: 4rem;
             transition: all 0.4s ease-in-out;
             img {
                 border-radius: 8%;
                 width: 100%;
                 height: 100%;
-                object-fit: cover;
+                object-fit: fill;
                 transition: all 0.4s ease-in-out;
             }
         }
